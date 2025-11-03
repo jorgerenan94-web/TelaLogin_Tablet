@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/images/CeuDesfocado.png');
+}
+
+.container .retangulo {
+    width: 80%;
+    height: 80%;
+    display: flex;
+}
+
+.container .retangulo .esquerda {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: skyblue;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+
+.container .retangulo .direita {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: skyblue;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+.container .retangulo .direita .card {
+    width: 400px;
+    height: 80%;
+    background-color: #407BFF;
+    border: solid;
+    border-width: 30px;
+    border-radius: 20px;
+}
+
+.container .retangulo .direita .card .topo {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .retangulo .direita .card .topo .icon i {
+    font-size: 80px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.container .retangulo .direita .card .meio {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.container .retangulo .direita .card .fim {
+    width: 100%;
+    height: 35%;
+}
+
+.container .retangulo .direita .card .meio .input {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+    margin-bottom: 5px;
+    margin-left: 75px;
+}
+
+/*.container .retangulo .direita .card .meio .input label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #1c1c1c;
+    margin-left: 82px;
+}*/
+
+.container .retangulo .direita .card .meio .input input {
+    width: 60%;
+    height: 30px;
+    border-width: 2px;
+}
+
+.container .retangulo .direita .card .meio .input input::placeholder {
+    color: #c0c0c0;
+    font-weight: 600;
+    text-align: center;
+}
+
+.container .retangulo .direita .card .meio .opcoes {
+    display: flex;
+    width: 80%;
+    margin-left: 65px;
+    align-items: baseline;
+    gap: 10px;
+}
+
+.container .retangulo .direita .card .meio .opcoes a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+.container .retangulo .direita .card .meio .botao {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container .retangulo .direita .card .meio .botao button {
+    width: 25%;
+    height: 35px;
+    color: #ffffff;
+    border: #ffffff;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.container .retangulo .direita .card .fim .social {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .retangulo .direita .card .fim .social p {
+    font-size: 22px;
+    color: black;
+}
+
+.container .retangulo .direita .card .fim .social .icons {
+    display: flex;
+    gap: 10px;
+}
+
+.container .retangulo .direita .card .fim .social .icons i {
+    font-size: 20px;
+}
